@@ -1,6 +1,5 @@
 ---
 theme: seriph
-aspectRatio: '16/9'
 title: Welcome to Slidev
 background: /images/sample.jpg
 transition: slide-left
@@ -9,14 +8,19 @@ transition: slide-left
 # Slide 1
 
 Content of my slide
+text
 
+<div class="absolute bottom-5 left-10">
+  <span class="font-size-2">
+    {{ $slidev.configs.title }}
+  </span>
+</div>
 <!--
 This is a note for my slide and I am typing here
 -->
 
 ---
 layout: center
-background: /images/sample.jpg
 class: text-white
 transition: slide-left
 ---
@@ -25,6 +29,40 @@ A page with the layout `center` and a background image
 
 ---
 
+# Slide 2
+
+Content of the second slide
+
+```python {all|1|3-11|3}
+import time
+
+def long_process_task():
+  """
+  内部で8秒間待機することで、処理に時間がかかるように見せる関数。
+  """
+  print("▶️ 処理を開始します。")
+  # この行で8秒間、処理を停止します
+  time.sleep(8)
+  print("✅ 処理が完了しました！")
+# 関数の実行
+long_process_task()
+```
+
+<style>
+h1 {
+  color: white
+}
+</style>
+
+---
+fonts:
+  # 標準テキスト用
+  sans: Noto Sans JP
+  # UnoCSS で `font-serif` クラスを指定したとき用
+  serif: Noto Serif JP
+  # コードブロック用
+  mono: Fira Code
+---
 # Slide 2
 
 Content of the second slide
@@ -217,3 +255,53 @@ src: ./pages/flowchart.md
 ---
 
 <div class="slidev-vclick-target slidev-vclick-hidden">Text</div>
+
+---
+mdc: true
+---
+
+# MDC Syntax
+
+formatterに`mdc: true`を追加することで、MDC Syntaxを使用できます。
+
+This is a [red text]{style="color:red"} :inline-component{prop="value"}
+
+
+---
+
+# UnoCSSの学習
+
+<h1 class="text-2xl font-bold text-blue-600 op-10"> テキストスタイリング</h1>
+
+- スペーシング
+<div class = "p-4 mt-8">パディングとマージン</div>
+
+- 背景とボーダー
+<div class="bg-gray-100 dark:bg-gray-800 border rounded-g">背景とボーダー</div>
+
+---
+
+# Flexbox(1次元レイアウト)
+<div class="flex items-center justify-center h-full">
+<p>中央揃えのテキスト</p>
+</div>
+
+---
+
+# Grid(2次元レイアウト)
+<div class="grid grid-cols-2 gap-8">
+<div>左カラムのコンテンツ
+<br>
+今日は
+</div>
+<div>右カラムのコンテンツ</div>
+</div>
+
+---
+
+<div class="i-mdi-check-circle text-blue-500" />
+
+<div class="i-mdi-alert-circle text-red-500" />
+
+<div class="i-mdi-github text-4xl" />
+<div class="i-mdi-github text-6xl" />

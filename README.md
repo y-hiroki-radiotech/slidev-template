@@ -11,6 +11,34 @@
 # Mermaid図のリンク
 [Mermaid](https://mermaid.js.org/intro/)
 
+# UnoCSSのリンク
+[UnoCSS Interactive](https://unocss.dev/interactive/)
+
+# ページ下部にページ数を埋め込む
+```bash
+<div class="absolute bottom-5 right-5">
+  <span class="font-size-2">
+    {{ $page }}<!-- 1 -->
+  </span>
+</div>
+```
+
+# おすすめフォント
+```bash
+---
+fonts:
+  # 標準テキスト用
+  sans: Noto Sans JP
+  # UnoCSS で `font-serif` クラスを指定したとき用
+  serif: Noto Serif JP
+  # コードブロック用
+  mono: Fira Code
+---
+```
+
+# Material Icons
+[Material Icons](https://icones.js.org/)
+
 # Export
 - PDF
 ```bash
@@ -96,13 +124,13 @@ Slidevは標準でスライドtransitionをサポートしています。transit
 transition: slide-left
 ---
 ```
-- fade - Crossfade in/out
-- fade-out - Fade out and then fade in
-- slide-left - Slides to the left (slide to right when going backward)
-- slide-right - Slides to the right (slide to left when going backward)
-- slide-up - Slides to the top (slide to bottom when going backward)
-- slide-down - Slides to the bottom (slide to top when going backward)
-- view-transition - Via the view transitions API
+- `fade` - Crossfade in/out
+- `fade-out` - Fade out and then fade in
+- `slide-left` - Slides to the left (slide to right when going backward)
+- `slide-right` - Slides to the right (slide to left when going backward)
+- `slide-up` - Slides to the top (slide to bottom when going backward)
+- `slide-down` - Slides to the bottom (slide to top when going backward)
+- `view-transition` - Via the view transitions API
 
 # Theme
 [テーマギャラリー](https://sli.dev/resources/theme-gallery)
