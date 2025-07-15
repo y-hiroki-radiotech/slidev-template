@@ -14,6 +14,9 @@
 # UnoCSSのリンク
 [UnoCSS Interactive](https://unocss.dev/interactive/)
 
+# デフォルトテーマのレイアウト
+[デフォルトテーマのレイアウト](https://zenn.dev/rinc5/articles/b7dc7a3b0bbd30)
+
 # ページ下部にページ数を埋め込む
 ```bash
 <div class="absolute bottom-5 right-5">
@@ -35,9 +38,6 @@ fonts:
   mono: Fira Code
 ---
 ```
-
-# Material Icons
-[Material Icons](https://icones.js.org/)
 
 # Export
 - PDF
@@ -137,3 +137,58 @@ transition: slide-left
 
 # Layout
 [レイアウトの設定](https://sli.dev/builtin/layouts)
+
+# 横線
+`***`
+
+# hideInToc: true
+Frontmatterに`hideInToc: true`を追加することで、目次に表示されなくなります。
+
+# Material Icons
+[Material Icons](https://icones.js.org/)
+
+**`mdi:account-circle`** をSlidevで使うコンポーネント形式に変換するルールは以下の通りです。
+
+1.  コロン（`:`）をハイフン（`-`）に変える。
+2.  全体をコンポーネントのタグ（`<` と `/>`）で囲む。
+
+---
+
+### 具体的な変換手順
+
+あなたの見つけたアイコン `mdi:account-circle` を例にすると、
+
+1.  まず、コロン `:` をハイフン `-` に置き換えます。
+    > `mdi:account-circle` → `mdi-account-circle`
+
+2.  次に、その文字列をタグで囲みます。
+    > `mdi-account-circle` → `<mdi-account-circle />`
+
+これで完了です。
+この `<mdi-account-circle />` をそのままSlidevのMarkdownファイルに貼り付ければ、画像と同じアイコンが表示されます。
+
+### まとめ（ルール）
+
+| 見つけた形式 | Slidevでの形式 |
+| :--- | :--- |
+| `[コレクション名]:[アイコン名]` | `<[コレクション名]-[アイコン名] />` |
+
+**別の例:**
+もし `carbon:settings` というアイコンを見つけたとします。
+ルールに従うと、コロンをハイフンに変えてタグで囲むので `<carbon-settings />` となります。
+
+このルールさえ覚えておけば、どのサイトで見つけたアイコンでも迷わず使えるようになります。
+
+
+# 目次の表示
+目次を表示するには、以下のように`<Toc />`コンポーネントを使用します。
+```bash
+<Toc maxDepth="2"/>
+```
+`maxDepth`は目次の深さを指定します。デフォルトは1です。
+maxDepth属性の役割
+maxDepth="2" 属性は、目次に表示する見出しレベルの最大深度を制御します。この設定により：
+
+# 見出し1（レベル1）は目次に含まれます
+## 見出し2（レベル2）は目次に含まれます
+### 見出し3（レベル3以下）は目次に含まれません
