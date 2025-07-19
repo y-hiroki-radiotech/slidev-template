@@ -617,7 +617,7 @@ layout: section
 <span><strong>継続的な改善</strong>と国際比較による更なる最適化</span>
 </div>
 </div>
-
+</div>
 
 ---
 layout: center
