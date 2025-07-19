@@ -11,18 +11,30 @@ hideInToc: true
 lineNumbers: true
 ---
 
-# 日本の診断参考レベル（DRLs）2025
+<div class="absolute top-8 left-1/2 transform -translate-x-1/2 text-sm opacity-60">
+2025年7月24日 第4回放射線技術検討会
+</div>
+
+# Japan DRLs 2025 Recup
 
 ## DRLs 2020との比較分析レポート
+<div class="mt-3"></div>
 
 ***
 
-<div class="text-2xl mt-8">
-<mdi-medical-bag /> 医療被ばく最適化の取り組み
-</div>
-
 <div class="text-lg mt-6 opacity-70">
 2025年版の主要な変更点と成果
+</div>
+
+<div class="absolute bottom-10 right-10 flex gap-8">
+<div class="text-center">
+<img src="https://storage.googleapis.com/zenn-user-upload/c3ce82417f38-20250719.png" alt="QR Code" class="w-20 h-20" />
+<div class="text-xs mt-1 opacity-70">Japan DRLs pdf</div>
+</div>
+<div class="text-center">
+<img src="https://storage.googleapis.com/zenn-user-upload/3e4ca3172911-20250719.png" alt="NotebookLM Chat QR Code" class="w-20 h-20" />
+<div class="text-xs mt-1 opacity-70">NotebookLM</div>
+</div>
 </div>
 
 ---
@@ -33,41 +45,41 @@ hideInToc: true
 
 ***
 
-<div class="mt-12"></div>
+<div class="mt-8"></div>
 
-<div class="grid grid-cols-2 gap-8 text-left">
+<div class="grid grid-cols-2 gap-6 text-left text-sm">
 <div>
-<h3 class="text-lg font-semibold mb-4">概要・基本情報</h3>
-<ol class="space-y-2 list-decimal ml-6">
+<h3 class="text-base font-semibold mb-3">概要・基本情報</h3>
+<ol class="space-y-1 list-decimal ml-4">
 <li>DRLs 2025 概要</li>
 <li>DRLs 2025の特徴</li>
 <li>全体的な傾向</li>
 </ol>
 
-<h3 class="text-lg font-semibold mb-4 mt-8">CT検査</h3>
-<ol class="space-y-2 list-decimal ml-6" start="4">
+<h3 class="text-base font-semibold mb-3 mt-6">CT検査</h3>
+<ol class="space-y-1 list-decimal ml-4" start="4">
 <li>CT検査の線量変化</li>
 <li>CT検査の改善要因</li>
 </ol>
 
-<h3 class="text-lg font-semibold mb-4 mt-8">一般撮影</h3>
-<ol class="space-y-2 list-decimal ml-6" start="6">
+<h3 class="text-base font-semibold mb-3 mt-6">一般撮影</h3>
+<ol class="space-y-1 list-decimal ml-4" start="6">
 <li>一般撮影の線量変化</li>
 <li>一般撮影の改善要因</li>
 </ol>
 </div>
 
 <div>
-<h3 class="text-lg font-semibold mb-4">IVR・核医学検査</h3>
-<ol class="space-y-2 list-decimal ml-6" start="8">
+<h3 class="text-base font-semibold mb-3">IVR・核医学検査</h3>
+<ol class="space-y-1 list-decimal ml-4" start="8">
 <li>IVR検査の線量変化</li>
 <li>IVR検査の改善要因</li>
 <li>核医学検査の線量変化</li>
 <li>核医学検査の改善要因</li>
 </ol>
 
-<h3 class="text-lg font-semibold mb-4 mt-8">その他・まとめ</h3>
-<ol class="space-y-2 list-decimal ml-6" start="12">
+<h3 class="text-base font-semibold mb-3 mt-6">その他・まとめ</h3>
+<ol class="space-y-1 list-decimal ml-4" start="12">
 <li>マンモグラフィ・歯科</li>
 <li>国際比較と課題</li>
 <li>今後の展望</li>
@@ -82,11 +94,8 @@ layout: section
 
 # DRLs 2025 概要
 
-***
 
-<div class="mt-12"></div>
 
-<mdi-clipboard-text-outline />
 
 ---
 
@@ -94,24 +103,26 @@ layout: section
 
 ***
 
-<div class="text-lg space-y-6">
-<div class="flex items-center gap-4">
-<mdi-chart-line class="text-blue-500 text-2xl" />
+<div class="mt-5"></div>
+
+<div class="text-xl space-y-8">
+<div class="flex items-center gap-6">
+<mdi-chart-line class="text-blue-500 text-3xl" />
 <span><strong>統合アンケート調査</strong>の導入</span>
 </div>
 
-<div class="flex items-center gap-4">
-<mdi-account-group class="text-green-500 text-2xl" />
+<div class="flex items-center gap-6">
+<mdi-account-group class="text-green-500 text-3xl" />
 <span><strong>回答施設数の大幅増加</strong></span>
 </div>
 
-<div class="flex items-center gap-4">
-<mdi-trending-down class="text-red-500 text-2xl" />
+<div class="flex items-center gap-6">
+<mdi-trending-down class="text-red-500 text-3xl" />
 <span><strong>多くの検査項目でDRL値の低下</strong></span>
 </div>
 
-<div class="flex items-center gap-4">
-<mdi-plus-circle class="text-purple-500 text-2xl" />
+<div class="flex items-center gap-6">
+<mdi-plus-circle class="text-purple-500 text-3xl" />
 <span><strong>新規項目の追加</strong></span>
 </div>
 </div>
@@ -122,10 +133,12 @@ layout: section
 
 ***
 
-<div class="grid grid-cols-2 gap-8">
+<div class="mt-5"></div>
+
+<div class="grid grid-cols-2 gap-10">
 <div>
-<h3 class="text-xl mb-4"><mdi-arrow-down-bold class="text-green-500" /> 線量低減要因</h3>
-<div class="text-lg space-y-3">
+<h3 class="text-2xl mb-6"><mdi-arrow-down-bold class="text-green-500" /> 線量低減要因</h3>
+<div class="text-xl space-y-4">
 <div>• 医療法施行規則改正（2020年4月）</div>
 <div>• 被ばく低減技術搭載装置の普及</div>
 <div>• 逐次近似応用画像再構成法</div>
@@ -134,8 +147,8 @@ layout: section
 </div>
 
 <div>
-<h3 class="text-xl mb-4"><mdi-plus class="text-blue-500" /> 新規追加項目</h3>
-<div class="text-lg space-y-3">
+<h3 class="text-2xl mb-6"><mdi-plus class="text-blue-500" /> 新規追加項目</h3>
+<div class="text-xl space-y-4">
 <div>• 小児心臓CT</div>
 <div>• 放射線治療計画CT</div>
 <div>• TAVI（経カテーテル大動脈弁留置術）</div>
@@ -150,9 +163,6 @@ layout: section
 
 # CT検査
 
-***
-
-<mdi-monitor-screenshot />
 
 ---
 
@@ -160,10 +170,12 @@ layout: section
 
 ***
 
+<div class="mt-5"></div>
 <div class="text-lg">
-<h3 class="text-xl mb-4"><mdi-chart-bar class="text-blue-500" /> DRLs 2020 vs 2025 比較（CTDIvol）</h3>
+<h3 class="text-xl mb-4"><mdi-chart-bar class="text-blue-500" /> DRLs 2020 vs 2025 比較（CTDI<sub>vol</sub>）</h3>
 
-| プロトコール | 2020 (CTDIvol) | 2025 (CTDIvol) | 変化率 |
+
+| プロトコール | 2020 (CTDI<sub>vol</sub>) | 2025 (CTDI<sub>vol</sub>) | 変化率 |
 |-------------|-------------|-------------|---------|
 | 頭部単純ルーチン | 64 mGy | 56 mGy | <span class="text-green-500">-13%</span> |
 | 胸部1相 | 7.5 mGy | 6.5 mGy | <span class="text-green-500">-13%</span> |
@@ -179,12 +191,13 @@ layout: section
 
 ***
 
+<div class="mt-5"></div>
 <div class="text-lg">
 <h3 class="text-xl mb-4"><mdi-lightbulb class="text-blue-500" /> 線量低減の要因分析</h3>
 
 <div class="grid grid-cols-2 gap-8">
 <div>
-<h4 class="font-semibold mb-4">技術的要因</h4>
+<h4 class="font-semibold mb-4 text-red-500">技術的要因</h4>
 <div class="space-y-3">
 <div>• 逐次近似応用画像再構成法の普及</div>
 <div>• 被ばく低減技術搭載装置の導入</div>
@@ -194,7 +207,7 @@ layout: section
 </div>
 
 <div>
-<h4 class="font-semibold mb-4">管理的要因</h4>
+<h4 class="font-semibold mb-4 text-yellow-500">管理的要因</h4>
 <div class="space-y-3">
 <div>• 線量管理・記録の浸透</div>
 <div>• 医療法施行規則改正の効果</div>
@@ -219,9 +232,6 @@ layout: section
 
 # 一般撮影
 
-***
-
-<mdi-camera />
 
 ---
 
@@ -229,8 +239,9 @@ layout: section
 
 ***
 
+<div class="mt-2"></div>
 <div class="text-lg">
-<h3 class="text-xl mb-4"><mdi-chart-line class="text-purple-500" /> DRLs 2020 vs 2025 比較（入射表面空気カーマ）</h3>
+<h3 class="text-xl mb-1"><mdi-chart-line class="text-purple-500" /> DRLs 2020 vs 2025 比較（入射表面空気カーマ）</h3>
 
 | 撮影部位・条件 | 2020 | 2025 | 変化率 |
 |-------------|------|------|---------|
@@ -249,12 +260,13 @@ layout: section
 
 ***
 
+<div class="mt-5"></div>
 <div class="text-lg">
 <h3 class="text-xl mb-4"><mdi-cog class="text-purple-500" /> 顕著な線量低減の要因</h3>
 
-<div class="grid grid-cols-2 gap-8">
+<div class="grid grid-cols-2 gap-6">
 <div>
-<h4 class="font-semibold mb-4">装置・技術的要因</h4>
+<h4 class="font-semibold mb-4 text-red-500">装置・技術的要因</h4>
 <div class="space-y-3">
 <div>• FPD（フラットパネル検出器）搭載装置への更新</div>
 <div>• 撮影条件の最適化</div>
@@ -264,7 +276,7 @@ layout: section
 </div>
 
 <div>
-<h4 class="font-semibold mb-4">管理・教育的要因</h4>
+<h4 class="font-semibold mb-4 text-yellow-500">管理・教育的要因</h4>
 <div class="space-y-3">
 <div>• 線量管理の重要性認識向上</div>
 <div>• 関連学協会による教育活動</div>
@@ -289,20 +301,17 @@ layout: section
 
 # IVR検査
 
-***
-
-<mdi-heart-pulse />
 
 ---
 
 # IVR検査の線量変化
 
 ***
-
+<div class="mt-3"></div>
 <div class="text-lg">
-<h3 class="text-xl mb-4"><mdi-chart-bar class="text-red-500" /> DRLs 2020 vs 2025 比較（患者照射基準点Ka,r）</h3>
+<h3 class="text-xl mb-1"><mdi-chart-bar class="text-red-500" /> DRLs 2020 vs 2025 比較（患者照射基準点 K<sub>a,r</sub>）</h3>
 
-| 項目 | 2020 (Ka,r) | 2025 (Ka,r) | 変化率 |
+| 項目 | 2020 (K<sub>a,r</sub>) | 2025 (K<sub>a,r</sub>) | 変化率 |
 |------|-------------|-------------|---------|
 | 頭部/頸部 (動脈瘤IVR) | 3100 mGy | 2400 mGy | <span class="text-green-500">-23%</span> |
 | 成人心臓 (非CTO PCI) | 1800 mGy | 1300 mGy | <span class="text-green-500">-28%</span> |
@@ -311,12 +320,12 @@ layout: section
 | 小児心臓 (IVR, 5-<10歳) | 210 mGy | 160 mGy | <span class="text-green-500">-24%</span> |
 </div>
 
-<div class="mt-6 p-4 border border-orange-200 rounded-lg">
-<div class="flex items-center gap-2">
-<mdi-star class="text-orange-500" />
+<div class="mt-4 p-2 border border-orange-200 rounded text-sm">
+<div class="flex items-center gap-1">
+<mdi-star class="text-orange-500 text-sm" />
 <span class="font-semibold">新規追加項目</span>
 </div>
-<div class="mt-2">TAVI（経大腿アプローチ）530 mGy、下肢EVT 160 mGy</div>
+<div class="mt-1">TAVI（経大腿アプローチ）530 mGy、 下肢EVT 160 mGy</div>
 </div>
 
 ---
@@ -325,12 +334,14 @@ layout: section
 
 ***
 
+<div class="mt-5"></div>
+
 <div class="text-lg">
 <h3 class="text-xl mb-4"><mdi-wrench class="text-red-500" /> 線量低減の要因分析</h3>
 
 <div class="grid grid-cols-2 gap-8">
 <div>
-<h4 class="font-semibold mb-4">技術的要因</h4>
+<h4 class="font-semibold mb-4 text-red-500">技術的要因</h4>
 <div class="space-y-3">
 <div>• 心内心電図マッピングシステムの活用</div>
 <div>• 血管内イメージング技術の向上</div>
@@ -340,7 +351,7 @@ layout: section
 </div>
 
 <div>
-<h4 class="font-semibold mb-4">手技的要因</h4>
+<h4 class="font-semibold mb-4 text-yellow-500">手技的要因</h4>
 <div class="space-y-3">
 <div>• 術者の技術向上</div>
 <div>• 手技時間の短縮</div>
@@ -365,9 +376,6 @@ layout: section
 
 # 核医学検査
 
-***
-
-<mdi-atom />
 
 ---
 
@@ -375,6 +383,7 @@ layout: section
 
 ***
 
+<div class="mt-3"></div>
 <div class="text-lg">
 <h3 class="text-xl mb-4"><mdi-chart-line class="text-green-500" /> Hybrid CT（DLP）の比較</h3>
 
@@ -400,6 +409,7 @@ layout: section
 
 ***
 
+<div class="mt-3"></div>
 <div class="text-lg">
 <h3 class="text-xl mb-4"><mdi-cog class="text-green-500" /> 線量最適化の要因</h3>
 
@@ -440,9 +450,6 @@ layout: section
 
 # マンモグラフィ・歯科
 
-***
-
-<mdi-medical-bag />
 
 ---
 
@@ -450,6 +457,7 @@ layout: section
 
 ***
 
+<div class="mt-3"></div>
 <div class="text-lg">
 <h3 class="text-xl mb-4"><mdi-chart-bar class="text-pink-500" /> DRLs 2020 vs 2025 比較（平均乳腺線量Dɢ）</h3>
 
@@ -460,8 +468,25 @@ layout: section
 | PMMA 40mm（ファントム） | 2.4 mGy | 2.2 mGy | <span class="text-green-500">-8%</span> |
 </div>
 
-<div class="mt-6">
-<h3 class="text-xl mb-4"><mdi-tooth class="text-orange-500" /> 歯科X線撮影の変化</h3>
+<div class="mt-8">
+<h3 class="text-lg mb-3"><mdi-medical-bag class="text-pink-500" /> マンモグラフィ改善要因</h3>
+<div class="grid grid-cols-2 gap-6 text-base">
+<div>• FPDシステムの普及</div>
+<div>• モニタ診断への移行</div>
+<div>• 回答施設数の大幅増加（10倍以上）</div>
+<div>• 臨床データ中心の評価へ移行</div>
+</div>
+</div>
+
+---
+
+# 歯科X線撮影の変化
+
+***
+
+<div class="mt-3"></div>
+<div class="text-lg">
+<h3 class="text-xl mb-4"><mdi-tooth class="text-orange-500" /> DRLs 2020 vs 2025 比較</h3>
 
 | 項目 | 2020 | 2025 | 変化率 |
 |------|-------------|-------------|---------|
@@ -470,41 +495,14 @@ layout: section
 | CBCT 大FOV | 1960 mGy·cm² | 2200 mGy·cm² | <span class="text-red-500">+12%</span> |
 </div>
 
----
-
-# マンモグラフィ・歯科の改善要因
-
-***
-
-<div class="text-lg">
-<div class="grid grid-cols-2 gap-8">
-<div>
-<h3 class="text-xl mb-4"><mdi-medical-bag class="text-pink-500" /> マンモグラフィ</h3>
-<div class="space-y-3">
-<div>• FPDシステムの普及</div>
-<div>• モニタ診断への移行</div>
-<div>• 回答施設数の大幅増加（10倍以上）</div>
-<div>• 臨床データ中心の評価へ移行</div>
-</div>
-</div>
-
-<div>
-<h3 class="text-xl mb-4"><mdi-tooth class="text-orange-500" /> 歯科X線撮影</h3>
-<div class="space-y-3">
+<div class="mt-6">
+<h3 class="text-lg mb-3"><mdi-tooth class="text-orange-500" /> 歯科改善要因・課題</h3>
+<div class="grid grid-cols-2 gap-3 text-base">
 <div>• 多くの項目で線量低下</div>
 <div>• 大FOVでは実態反映による増加</div>
 <div>• 海外比較で改善余地あり</div>
 <div>• 診断目的に応じた最適化が課題</div>
-</div>
-</div>
-</div>
-
-<div class="mt-6 p-4 border border-yellow-200 rounded-lg">
-<div class="flex items-center gap-2">
-<mdi-alert class="text-yellow-500" />
-<span class="font-semibold">課題</span>
-</div>
-<div class="mt-2">歯科CBCTの小FOV：日本の75%以上が英国DRLを上回る</div>
+<div class="col-span-2 text-red-500 font-semibold">• 小FOV：日本の75%以上が英国DRLを上回る</div>
 </div>
 </div>
 
@@ -514,9 +512,6 @@ layout: section
 
 # 国際比較と課題
 
-***
-
-<mdi-earth />
 
 ---
 
@@ -524,6 +519,7 @@ layout: section
 
 ***
 
+<div class="mt-3"></div>
 <div class="text-lg">
 <h3 class="text-xl mb-4"><mdi-flag class="text-red-500" /> 改善が必要な領域</h3>
 
@@ -562,9 +558,7 @@ layout: section
 
 ***
 
-<div class="text-lg">
-<h3 class="text-xl mb-4"><mdi-crystal-ball class="text-blue-500" /> 今後の課題と展望</h3>
-
+<div class="mt-3"></div>
 <div class="grid grid-cols-2 gap-6">
 <div>
 <h4 class="font-semibold mb-4">技術的発展</h4>
@@ -601,6 +595,7 @@ layout: section
 
 ***
 
+<div class="mt-3"></div>
 <div class="text-lg space-y-6">
 <div class="flex items-center gap-4">
 <mdi-check-circle class="text-green-500 text-2xl" />
@@ -623,12 +618,6 @@ layout: section
 </div>
 </div>
 
-<div class="mt-8 p-4 border border-blue-200 rounded-lg text-center">
-<div class="flex items-center justify-center gap-2">
-<mdi-heart class="text-red-500" />
-<span class="font-semibold">患者安全と医療の質向上への貢献</span>
-</div>
-</div>
 
 ---
 layout: center
@@ -637,12 +626,4 @@ class: text-center
 
 # ご清聴ありがとうございました
 
-***
 
-<div class="text-xl mt-8 opacity-70">
-質問・議論をお待ちしています
-</div>
-
-<div class="text-lg mt-4 opacity-50">
-<mdi-email /> お問い合わせ
-</div>
