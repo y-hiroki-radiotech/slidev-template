@@ -558,35 +558,37 @@ layout: section
 
 ***
 
-<div class="mt-3"></div>
-<div class="grid grid-cols-2 gap-6">
+<div class="mt-5"></div>
+
+<div class="grid grid-cols-2 gap-8 text-lg">
+
 <div>
-<h4 class="font-semibold mb-4">技術的発展</h4>
-<div class="space-y-3">
-<div>• SSDE（体格反映指標）の活用</div>
-<div>• AI技術による線量最適化</div>
-<div>• 個別化された最適化手法</div>
-</div>
+
+#### 技術的発展
+- SSDE（体格反映指標）の活用
+- AI技術による線量最適化
+- 個別化された最適化手法
+
 </div>
 
 <div>
-<h4 class="font-semibold mb-4">システム改善</h4>
-<div class="space-y-3">
-<div>• 自動データ収集システム</div>
-<div>• リアルタイム監視機能</div>
-<div>• 迅速なフィードバック体制</div>
-</div>
-</div>
+
+#### システム改善
+- 自動データ収集システム
+- リアルタイム監視機能
+- 迅速なフィードバック体制
+
 </div>
 
-<div class="mt-6">
-<h4 class="font-semibold mb-4">国際ベンチマーキング</h4>
-<div class="space-y-3">
-<div>• 線量が高い領域の深掘り分析</div>
-<div>• 手技の標準化とガイドライン整備</div>
-<div>• 診療報酬体系の検討</div>
 </div>
-</div>
+
+<div class="mt-8">
+
+#### 国際ベンチマーキング
+- 線量が高い領域の深掘り分析
+- 手技の標準化とガイドライン整備
+- 診療報酬体系の検討
+
 </div>
 
 ---
@@ -615,7 +617,6 @@ layout: section
 <div class="flex items-center gap-4">
 <mdi-target class="text-purple-500 text-2xl" />
 <span><strong>継続的な改善</strong>と国際比較による更なる最適化</span>
-</div>
 </div>
 </div>
 
