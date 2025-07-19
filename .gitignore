@@ -11,12 +11,6 @@ components.d.ts
 .env.local
 .env.*.local
 
-# Build outputs
-.nuxt
-.output
-.vercel
-.netlify
-
 # Logs
 *.log
 npm-debug.log*"
@@ -30,7 +24,4 @@ yarn-error.log*
 coverage/
 .nyc_output
 
-# Markdown files except slides.md and README.md
-*.md
-!slides.md
-!README.md
+
