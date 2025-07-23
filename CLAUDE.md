@@ -117,3 +117,7 @@ npm run export     # Export slides to PDF
 
 # 自己紹介が必要な時のみ、`who_am_i.md` を使用してください。
 - 自己紹介の内容は、`who_am_i.md` に記載されています。
+
+# slidevの基本的な機能は以下を参考にしてください。
+- [slidevの基本機能](slidev_write.md)
+
