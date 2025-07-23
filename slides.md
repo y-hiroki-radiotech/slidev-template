@@ -78,7 +78,7 @@ hideInToc: true
 </ol>
 
 <h3 class="text-base font-semibold mb-3 mt-6">その他・まとめ</h3>
-<ol class="space-y-1 list-decimal ml-4" start="12">
+<ol class="space-y-1 list-decimal ml-4" start="11">
 <li>マンモグラフィ・歯科</li>
 <li>国際比較と課題</li>
 <li>今後の展望</li>
